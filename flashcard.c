@@ -47,13 +47,13 @@ void add() {
         struct qna ques[n];
         for (i = 0; i < n; i++) {
             printf("Enter question %d: \n", i + 1);
-            scanf(" %[^\n]", ques[i].ques); // Read entire line for question
+            scanf(" %[^\n]", ques[i].ques); 
             fputs("Q: ", file);
             fputs(ques[i].ques, file);
             fputs("\n", file);
             
             printf("Enter the answer: \n");
-            scanf(" %[^\n]", ques[i].ans); // Read entire line for answer
+            scanf(" %[^\n]", ques[i].ans); 
             fputs("A: ", file);
             fputs(ques[i].ans, file);
             fputs("\n", file);
@@ -77,7 +77,7 @@ void review() {
             printf("%s", line);
             if (line[0] == 'Q') {
                 printf("Press Enter to see the answer...\n");
-                while (getchar() != '\n'); // Wait for Enter key
+                while (getchar() != '\n'); 
             }
             else if (line[0] == 'A') {
                 char ch[10];
