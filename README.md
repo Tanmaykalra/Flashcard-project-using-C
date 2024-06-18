@@ -20,4 +20,4 @@ I'm a beginner in the feild of computer science. The only language that I have k
 8.) The question is printed and the answer is kept hidden until the user presses enter key. The answer when displayed, user is asked if he/she got it right or not. That id how the project also displayes the number of questions answered correctly.
 
 ## How to use this project?
-1.) Download the flashcard.exe file and run it. The error might pop up, to overcome that, click on 'more info' at the end of the pop up shown, and click 'run anyway'. 
+1.) Download the flashcard.exe file by clicking on 'view raw' and run it. The error might pop up, to overcome that, click on 'more info' at the end of the pop up shown, and click 'run anyway'. 
